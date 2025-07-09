@@ -1,0 +1,11 @@
+.copyright-page {
+    height: 50px;
+    background-color: rgb(255, 220, 220);
+    display: flex;
+    text-align: center;
+}
+.copyright-text {
+    margin-top: 20px;
+    font-family: Cardo, sans-serif;
+    font-size: 15px;
+}

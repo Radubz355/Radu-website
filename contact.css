@@ -1,0 +1,71 @@
+.contact-page {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 209, 209);
+}
+.contact-container {
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    height: 60px;
+    width: 120px;
+}
+.contact-title {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    text-align: center;
+    justify-content: center;
+
+}
+.contact-text {
+    margin-top: 2px;
+    margin-right: 2px;
+    font-family: Cardo, sans-serif;
+}
+.contact-information {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.phone-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone-logo {
+    margin-left: -15px;
+}
+.phone-number {
+    margin-left: -70px;
+    margin-bottom: 4px;
+}
+.phone-number1 {
+    font-family: Cardo, sans-serif;
+    font-size: 15px;
+}
+.location-container {
+    height: 50px;
+}
+.location-adress {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 14px;
+}
+.location {
+    font-family: Cardo, sans-serif;
+    font-size: 15px;
+}

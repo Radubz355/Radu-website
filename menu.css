@@ -1,0 +1,80 @@
+.menu-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(243, 210, 210);
+    height: 500px;
+}
+.menu-container {
+    height: 500px;
+    width: 700px;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.menu-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    height: 60px;
+    width: 120px;
+    margin-left: -40px;
+}
+.cup-coffe-logo {
+    align-items: center;
+    padding-left: 10px;
+    height: 45px;
+    width: 45px;
+    margin-bottom: 25px;
+}
+.menu-text {
+    margin-left: 5px;
+    font-family: Montserrat, sans-serif;
+}
+
+
+.espresso-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.menu-coffe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.meniu-coffe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.div1,.div2 {
+    display: flex;
+    margin-left: 90px;
+    align-items: center;
+}
+.detalii {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+
+}
+.espresso-title {
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-family: Cardo, sans-serif;
+}
+.espresso-price {
+    font-size: 16px;
+    font-family: Cardo, sans-serif;
+}
+

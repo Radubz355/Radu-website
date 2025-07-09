@@ -1,0 +1,57 @@
+.home-page {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+.img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.welcome-container {
+    position: absolute;
+    flex-direction: column;
+    text-align: left;
+    top: 150px;
+    left: 250px;
+    width: 200px;
+    height: 300px;
+}
+.welcome-title {
+    color: white;
+    font-family: Cardo;
+    font-size: 35px;
+    width: 215px;
+}
+.welcome-motto {
+    color: white;
+    margin-top: 15px;
+    font-family: Cardo;
+    font-size: 18px;
+}
+.vizit-menu {
+    margin-top: 15px;
+    width: 140px;
+    height: 36px;
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(255, 242, 242);
+    transition: background-color 0.30s;
+    transition: color 0.30s;
+}
+.vizit-menu:hover {
+    background-color: transparent;
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+.vizit-menu:active {
+    opacity: 0.5;
+}
